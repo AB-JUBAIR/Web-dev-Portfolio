@@ -1,0 +1,12 @@
+/* Nav style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav_title
+{
+    font-family: 'Open Sans';
+    font-size: 50px;
+}
+.nav_title span
+{
+    color: orange;
+}
