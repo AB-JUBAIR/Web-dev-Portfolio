@@ -262,13 +262,39 @@ line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
 }
-.summay
+.sum-conta
 {
     display: flex;
-    flex-direction: columns;
+    flex-direction: row;
 }
-.sum-box
+.summay .sum-title
+{
+   
+    text-align: center;
+    font-size: 35px;
+}
+.summay  .edu, .summay .sum-exp
 {
     display: flex;
     flex-direction: column;
+}
+.sum-box
+{
+    margin: 0 50px;
+    font-family: 'Open Sans';
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.edu h1, .sum-exp h1
+{
+    margin-left: 50px;
+}
+.summay
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summay .btn
+{
+    margin: 35px;
 }
