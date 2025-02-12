@@ -164,3 +164,29 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 }
+.about-itmes
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+}
+.about-itmes .item-des
+{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-itmes .item-title
+{
+    font-family: Open Sans;
+    color: rgb(117, 117, 117);
+font-size: 20px;
+font-weight: 400px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
