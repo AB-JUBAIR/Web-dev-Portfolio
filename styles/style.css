@@ -1,75 +1,75 @@
 /* Nav style */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*
-{
-    margin: 0;
-    padding: 0;
-}
-.header
-{
-    background-image: url(/images/developer.png), url(/images/header_bg.png) ;
+
+
+
+.header {
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left, bottom right;
     margin-left: 50px;
 }
-nav
-{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px ;
+    margin: 50px;
     margin-left: 200px;
-    
+
 }
-.nav_title
-{
+
+.nav_title {
     font-family: 'Open Sans';
     font-size: 50px;
 }
-.nav_title span
-{
+
+.nav_title span {
     color: orange;
 }
-nav ul li
-{
+
+nav ul li {
     list-style: none;
 
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav .dark2
-{
+
+nav .dark2 {
     color: lightslategray;
     font-size: 20px;
     margin: 30px;
 
 }
-.btn{
+
+.btn {
     color: white;
     background-color: orange;
     height: 50px;
-width: 130px;
-border-radius: 5px;
-border: none;
-font-size: 20px;
-font-weight: bold;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
 }
-ul
-{
+
+ul {
     align-items: center;
 }
-.banar-conta .btn
-{
+
+.banar-conta .btn {
     margin-left: 40px;
 
 }
-.banar-conta .btn2
-{
+
+.banar-conta .btn2 {
     background-color: white;
     border: 2px solid orange;
     border-radius: 5px;
@@ -81,146 +81,163 @@ ul
     margin: 40px;
 
 }
+
 /* banner style */
-.banar h4
-{
+.banar h4 {
     color: rgb(71, 71, 71);
-font-family: Open Sans;
-font-size: 45px;
-font-weight: 600;
-line-height: 61px;
-letter-spacing: 0%;
-text-align: left;
-margin: 40px;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 40px;
 }
-.banar h1
-{
+
+.banar h1 {
     color: rgb(24, 24, 24);
-font-family: Open Sans;
-font-size: 85px;
-font-weight: 700;
-line-height: 116px;
-letter-spacing: 0%;
-text-align: left;
-margin: 40px;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 40px;
 }
-.banar .description
-{
+
+.banar .description {
     color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin: 40px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 40px;
 }
-.banar
-{
+
+.banar {
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
     margin-left: 200px;
     margin-right: 50px;
 }
-.banar .banar-conta
-{
+
+.banar .banar-conta {
     border: 2px solid black;
 }
-.banar img{
+
+.banar img {
     height: 100%;
-  
+
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
-    
+
 }
-.about
-{
+
+.about {
     border: 2px solid black;
     padding: 100px 230px 100px 230px;
     margin-top: 100px;
     background-color: rgb(252, 244, 231);
 }
-.about .section-title
-{
+
+.about .section-title {
     color: rgb(24, 24, 24);
-font-family: Open Sans;
-font-size: 35px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
-margin: 35px;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 35px;
 }
-.about .descripion
-{
+
+.about .descripion {
     color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.about-itmes
-{
+
+.about-itmes {
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 30px;
 }
-.about-itmes .item-des
-{
+
+.about-itmes .item-des {
     font-family: Open Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.about-itmes .item-title
-{
+
+.about-itmes .item-title {
     font-family: Open Sans;
     color: rgb(117, 117, 117);
-font-size: 20px;
-font-weight: 400px;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.box-continer
-{
+
+.box-continer {
     display: flex;
     justify-content: space-between
 }
-.box
-{
+
+.box {
+    margin: 40px auto;
     border: 2px solid black;
     border-radius: 5px;
-
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-background: rgb(255, 255, 255);width: 267px;
-height: 377px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    width: 267px;
+    height: 377px;
 
 }
-.box-des
-{
+
+.box-des {
     color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
-padding-top: 20px;
-margin: 30px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+    margin: 0 30px;
 }
-.box-heading
-{
+
+.box-heading {
     margin: auto 30px;
-    margin-top: 60px;
+    margin-top: 10px;
     font-size: 20px;
-font-weight: 700;
+    font-weight: 700;
+}
+.box .icon
+{
+    margin: 20px 30px;
+}
+.skills
+{
+}
+.skills .section-des
+{
+ 
+}
+.section-des,.section-title{
+text-align: center;
 }
