@@ -262,3 +262,13 @@ line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
 }
+.summay
+{
+    display: flex;
+    flex-direction: columns;
+}
+.sum-box
+{
+    display: flex;
+    flex-direction: column;
+}
