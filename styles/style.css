@@ -298,3 +298,11 @@ text-align: center;
 {
     margin: 35px;
 }
+.footer
+{
+    border: 2px solid black;
+    width: 1600px ;
+    height: 780px;
+    background-color: lightsalmon;
+
+}
