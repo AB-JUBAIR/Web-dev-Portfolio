@@ -347,3 +347,28 @@ border: none;
     height: 40px;
     margin: 15px;
 }
+/* Responsive Part  */
+
+@media screen and (max-width: 576px) {
+    .box-continer, .footer{
+        flex-direction: column;
+    }
+    .contact-ditle{
+        width: 90%;
+        padding: 10px 10px; 
+        margin: 10px;   
+        text-align: center; 
+    }
+    .footer{
+        padding-top:  100px;
+
+    }
+    .massage-diatil , .name, .email, .message{
+        margin: 10px;
+        padding: 10px;
+        width: 310px;
+        height: 400px ; 
+        /* width : calc(100% - 40px) */
+    }
+    
+}
