@@ -347,8 +347,7 @@ border: none;
     height: 40px;
     margin: 15px;
 }
-/* Responsive Part  */
-
+/* Responsive Part  */ 
 @media screen and (max-width: 576px) {
     .box-continer, .footer{
         flex-direction: column;
@@ -370,5 +369,21 @@ border: none;
         height: 400px ; 
         /* width : calc(100% - 40px) */
     }
-    
+    .summay .sum-title {
+        text-align: center;
+        font-size: 25px;
+    }
+    .sum-conta{
+        width: 95%;
+    }
+    .edu, .sum-exp
+    {
+        width: 50%;
+    }
+    .sum-box, .edu h1, .sum-exp h1{
+        margin: 0 10px;
+    }
+    .skills .what-i-do {
+        padding: 0 5px;
+    }
 }
