@@ -349,7 +349,7 @@ border: none;
 }
 /* Responsive Part  */ 
 @media screen and (max-width: 576px) {
-    .box-continer, .footer{
+    .box-continer, .footer,  .about-itmes{
         flex-direction: column;
     }
     .contact-ditle{
@@ -385,5 +385,40 @@ border: none;
     }
     .skills .what-i-do {
         padding: 0 5px;
+    }
+    .about,.header
+    {
+        padding: 10px;
+        margin: 5px;
+    }
+    .item-title, .item-des{
+        margin-top: 1px;
+        margin-bottom: 2px;
+    }
+    .about-item {
+        box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.2);
+    }
+    .banar {
+        display: flex
+    ;
+        justify-content: space-between;
+        /* margin-left: 200px; */
+        /* margin-right: 50px; */
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        flex-direction: column;
+    }
+    .btn{
+        height: 30px;
+    width: 120px;
+    fons-size: 15px;
+    }
+    .banar .description, .banar h1, .banar h4{
+        margin: 1px;
     }
 }
